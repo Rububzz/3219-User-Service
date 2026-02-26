@@ -1,0 +1,27 @@
+# Dependencies — reinstalled fresh during build
+node_modules
+
+# Environment variables — never bake secrets into an image
+.env
+.env.*
+
+# Git
+.git
+.gitignore
+
+# Docker files themselves
+Dockerfile
+Dockerfile.dev
+docker-compose*.yml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Dev tools
+.eslintrc*
+.prettierrc*
